@@ -137,11 +137,10 @@ h1 {
   color: #FFFFFF;
 }
 
-p {
-  font-size: 16px;
+.techwave-para {
+  font-size: 1rem;
   opacity: 80%;
   color: #FFFFFF;
-  max-width: 520px;
   margin: 0 auto 30px;
 }
 .btn {
@@ -180,3 +179,39 @@ p {
   right: 0;
 }
 
+.about{
+  padding: 100px 20px;
+  color: #ffffff;
+}
+.about-container{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.about p{
+  font-size: 1rem;
+  opacity: 80%;
+}
+.divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 50px 0;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+}
+.stat h3{
+  font-size: 3rem;
+  color:#00FF88;
+  margin-bottom: 8px;
+}
+.stat span{
+  font-size: 1rem;
+  opacity: 80%;
+}
