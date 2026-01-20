@@ -281,7 +281,45 @@ Icons
 .card.wide {
   grid-column: span 2;
 }
+.featured{
+  display: flex;
+  width: 1200px;
+  height: 538px;
+  margin: 0 auto;
+}
+.card-body{
+  width: 380px;
+  height: 440px;
+}
+.card-body iframe{
+  height: 214px;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  border-top-right-radius: 6%;
+  border-top-left-radius: 6%;
 
+}
+.shadow-sm{
+  padding: 0;
+}
+.card-body h2{
+  margin-left: 24px;
+}
+.card-body p{
+  margin-left: 24px;
+}
+.minute{
+  display: flex;
+  align-items: center; 
+}
+.card-body span{
+  color: #00FF88;
+}
+.featured-title {
+  text-align: center;
+
+}
 /* Responsive
 @media (max-width: 992px) {
   .why-grid {
